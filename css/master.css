@@ -96,6 +96,15 @@ li.item-menu-vertical:hover{
     border-bottom: 1px solid white;
 }
 
+.page-title{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin: 0;
+    color: red;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
 div#productos.content.columna{
     background-color: #474747;
 }
@@ -158,4 +167,8 @@ div#productos.content.columna{
 
 #col1, #col2{
     border-right: 1px solid rgba(255, 255, 255, 0.253);
+}
+
+.justificado{
+    text-align: justify;
 }
