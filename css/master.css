@@ -42,7 +42,7 @@ ul.menu-vertical {
     overflow: hidden;
     background-color: #474747;
 }
-a.activa {
+a.activa, li.activa {
     background-color: red;
 }
 li.item-menu-horizontal a, li.item-menu-vertical a{
