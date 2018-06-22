@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #ccc;
 }
 h1{
 
@@ -11,13 +12,13 @@ h3{
 
 }
 h4{
-    
+
 }
 h5{
 
 }
 h6{
-    
+
 }
 
 a{
@@ -39,26 +40,32 @@ ul.menu-vertical {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #474747;
 }
-a.active {
+a.activa {
     background-color: red;
 }
-li.item-menu-horizontal a {
+li.item-menu-horizontal a, li.item-menu-vertical a{
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li.item-menu-horizontal a:hover {
-    background-color: #111;
+
+.item-menu-vertical a{
+    display: block;
 }
 
-#sidebar{
-    border: 1px solid black;
+li.item-menu-horizontal:hover {
+    background-color: #111;
 }
-#productos{
+li.item-menu-vertical:hover{
+    background-color: red;
+}
+#sidebar, #productos{
     border: 1px solid black;
+    padding: 0;
 }
 
 #logo{
@@ -68,4 +75,59 @@ li.item-menu-horizontal a:hover {
 .header{
     width: 100%;
     border: 1px solid black;
+}
+
+.columna{
+  border: 1px solid black;
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+}
+
+.title{
+    background-color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+}
+
+div#productos.content.columna{
+    background-color: #474747;
+}
+
+.producto{
+    background-color: #ccc;
+    padding: 0;
+}
+.imagen-producto{
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+.titulo-producto{
+
+}
+.precio-producto{
+
+}
+.botones-producto{
+
+}
+.ver-producto, .anadir-producto{
+    margin: 0;
+}
+.ver-producto{
+
+}
+.anadir-producto{
+
+}
+
+.desc-producto{
+    text-align: justify;
 }
