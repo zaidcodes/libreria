@@ -110,24 +110,28 @@ div#productos.content.columna{
     background-color: #000;
 }
 .titulo-producto{
-
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
 }
 .precio-producto{
-
+    font-weight: bold;
 }
 .botones-producto{
-
+    margin: 5px auto;
 }
 .ver-producto, .anadir-producto{
-    margin: 0;
+    color: black;
 }
 .ver-producto{
-
+    background-color: #4589F7;
 }
 .anadir-producto{
-
+    background-color: #79F269;
 }
 
 .desc-producto{
     text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
 }
