@@ -121,17 +121,41 @@ div#productos.content.columna{
     margin: 5px auto;
 }
 .ver-producto, .anadir-producto{
-    color: black;
+    color: white;
 }
 .ver-producto{
-    background-color: #4589F7;
+    background-color: black;
 }
 .anadir-producto{
-    background-color: #79F269;
+    background-color: red;
+}
+.ver-producto:hover{
+    background-color: rgba(26, 26, 26, 0.800);
+}
+.anadir-producto:hover{
+    background-color: rgba(255, 26, 26, 0.800);
 }
 
 .desc-producto{
     text-align: justify;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.footer{
+    background-color: #333;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0 auto;
+}
+
+.col-footer{
+    text-align: justify;
+    padding: 15px;
+    border: none;
+}
+
+#col1, #col2{
+    border-right: 1px solid rgba(255, 255, 255, 0.253);
 }
