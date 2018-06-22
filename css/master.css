@@ -172,3 +172,37 @@ div#productos.content.columna{
 .justificado{
     text-align: justify;
 }
+
+.centrado{
+    text-align: center;
+}
+
+.form-center{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.intput-text{
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+label{
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+}
+.boton{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    height: 40px;
+}
+#form-contacto{
+    margin-top: 5%;
+}
